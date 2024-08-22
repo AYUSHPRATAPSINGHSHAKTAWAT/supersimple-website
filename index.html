@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container1 p {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            font-family: monospace;
+            animation: typing 4s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            0% {
+                width: 0;
+            }
+
+            50% {
+                width: 100%;
+            }
+
+            100% {
+                width: 0;
+            }
+        }
+
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent;
+            }
+
+            50% {
+                border-color: black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container1 extends container">
+            <h1> AYUSH PRATAP SINGH SHAKTAWAT </h1>
+            <p>
+                < Web Developer | Designer | Programmer />
+            </p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Ayush, a passionate web developer based in Indore(M.P.),India. I have a strong background in
+                front-end development, with a focus on creating engaging and user-friendly web experiences.</p>
+            <p>With my experience in web development, I've had the opportunity to work on a variety of projects, from
+                small business websites to large-scale applications. I love solving complex problems and am always eager
+                to learn new technologies and techniques.</p>
+            <p>When I'm not coding, you can find me exploring the outdoors, practicing Badminton, experimenting with new
+                recipes in the kitchen, or may be reading non-fiction books. I enjoy spending my free time exploring new
+                activities and honing my skills.</p>
+            <p>Feel free to reach out if you have any questions or just want to chat about web development, technology,
+                or any of my hobbies!</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My best projects</h2>
+            <div class="project-list">
+                <div class="project-item1">
+                    <h3>Hotel management website</h3>
+                    <p>A fully functioning hotel room booking website. Using Technologies like HTML,CSS,JavaScript for
+                        front-end and Node.js with Express.js (JavaScript) for handling the Backend.</p>
+
+                </div>
+                <div class="project-item2">
+                    <h3>Village environment manager</h3>
+                    <p>A village environment project website utilizing Ushahidi Platform, crowdsourcing, and mapping
+                        tools to empower community-driven change.</p>
+                </div>
+                <div class="project-item3">
+                    <h3>Car drivers app</h3>
+                    <p>A car drivers service app providing on-demand drivers with real-time tracking, transparent
+                        pricing, and safety features, built using React Native, Node.js, and Google Maps API.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills that i have</h2>
+            <ul class="skills-list">
+                <li1>HTML & CSS</li1>
+                <li2>JavaScript</li2>
+                <li3>React.js</li3>
+                <li4>Node.js</li4>
+                <li5>Java</li5>
+                <li6>Git & GitHub</li6>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to send me a message!</p>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Ayush. All rights reserved.</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("m2Mvph79Gq3ZmfQYR"); // Replace "YOUR_USER_ID" with your actual user ID from EmailJS
+        })();
+    </script>
+
+</body>
+
+</html>

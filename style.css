@@ -1,0 +1,241 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    color: rgb rgb(255, 255, 255);
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+header p {
+    padding: 0;
+    font-size: 1.2em;
+    border-width: 0cap;
+}
+
+/* About Section */
+#about {
+    padding: 100px;
+    background-image: url(aboutBack.jpg);
+    background-size: cover;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(199, 188, 188);
+}
+
+#about p {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 0;
+    background-image: url(projectBack.jpg);
+    background-size: cover;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-item1 {
+    width: 30%;
+    background-color: #f4f4f4;
+    background-image: url(hotel.png);
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-item2 {
+    width: 30%;
+    background-color: #f4f4f4;
+    background-image: url(village.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-item3 {
+    width: 30%;
+    background-color: #f4f4f4;
+    background-image: url(driver.png);
+    background-size: cover;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.project-item1 h3 {
+    text-align: center;
+    color: #030a9a;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.project-item2 h3 {
+    text-align: center;
+    color: #350202;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.project-item3 h3 {
+    text-align: center;
+    color: #585504;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 0;
+    background-color: #faa0a0;
+    background-size: cover;
+}
+
+#skills h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-list li1 {
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.skills-list li2 {
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.skills-list li3 {
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.skills-list li4 {
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.skills-list li5 {
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.skills-list li6 {
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #faa0a0;
+    padding: 0px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input,
+#contact textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #faa0a0;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+}
