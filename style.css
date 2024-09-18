@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
     box-sizing: content-box;
     color: rgb rgb(255, 255, 255);
 }
@@ -12,6 +13,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
 }
 
 /* Header Section */
@@ -20,17 +22,20 @@ header {
     color: rgb(255, 255, 255);
     padding: 100px 0;
     text-align: center;
+    display: flex;
 }
 
 header h1 {
     margin: 0;
     font-size: 3.5em;
+    display: flex;
 }
 
 header p {
     padding: 0;
     font-size: 1.2em;
     border-width: 0cap;
+    display: flex;
 }
 
 /* About Section */
@@ -38,6 +43,7 @@ header p {
     padding: 100px;
     background-image: url(aboutBack.jpg);
     background-size: cover;
+    display: flex;
 }
 
 #about h2 {
@@ -45,6 +51,7 @@ header p {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: rgb(199, 188, 188);
+    display: flex;
 }
 
 #about p {
@@ -52,6 +59,7 @@ header p {
     margin: 0;
     padding: 0;
     color: #ccc;
+    display: flex;
 }
 
 /* Projects Section */
@@ -59,18 +67,21 @@ header p {
     padding: 40px 0;
     background-image: url(projectBack.jpg);
     background-size: cover;
+    display: flex;
 }
 
 #projects h2 {
     text-align: center;
     font-size: 2.5em;
     margin-bottom: 20px;
+    display: flex;
 }
 
 .project-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    display: flex;
 }
 
 .project-item1 {
@@ -81,6 +92,7 @@ header p {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .project-item2 {
@@ -91,6 +103,7 @@ header p {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .project-item3 {
@@ -101,6 +114,7 @@ header p {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .project-item1 h3 {
@@ -108,6 +122,7 @@ header p {
     color: #030a9a;
     margin-top: 0;
     font-size: 1.5em;
+    display: flex;
 }
 
 .project-item2 h3 {
@@ -115,6 +130,7 @@ header p {
     color: #350202;
     margin-top: 0;
     font-size: 1.5em;
+    display: flex;
 }
 
 .project-item3 h3 {
@@ -122,6 +138,7 @@ header p {
     color: #585504;
     margin-top: 0;
     font-size: 1.5em;
+    display: flex;
 }
 
 /* Skills Section */
@@ -129,12 +146,14 @@ header p {
     padding: 40px 0;
     background-color: #faa0a0;
     background-size: cover;
+    display: flex;
 }
 
 #skills h2 {
     text-align: center;
     font-size: 2em;
     margin-bottom: 30px;
+    display: flex;
 }
 
 .skills-list {
@@ -142,6 +161,7 @@ header p {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    display: flex;
 }
 
 .skills-list li1 {
@@ -150,6 +170,7 @@ header p {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .skills-list li2 {
@@ -158,6 +179,7 @@ header p {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .skills-list li3 {
@@ -166,6 +188,7 @@ header p {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .skills-list li4 {
@@ -174,6 +197,7 @@ header p {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .skills-list li5 {
@@ -182,6 +206,7 @@ header p {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 .skills-list li6 {
@@ -190,24 +215,28 @@ header p {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    display: flex;
 }
 
 /* Contact Section */
 #contact {
     background-color: #faa0a0;
     padding: 0px;
+    display: flex;
 }
 
 #contact h2 {
     text-align: center;
     font-size: 2em;
     margin-bottom: 0px;
+    display: flex;
 }
 
 #contact form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: flex;
 }
 
 #contact input,
@@ -217,6 +246,7 @@ header p {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    display: flex;
 }
 
 #contact button {
@@ -226,10 +256,12 @@ header p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
 }
 
 #contact button:hover {
     background-color: #555;
+    display: flex;
 }
 
 /* Footer */
@@ -237,5 +269,6 @@ footer {
     background-color: #faa0a0;
     color: black;
     text-align: center;
+    display: flex;
     padding: 5px 0;
 }
